@@ -31,6 +31,8 @@ public class main {
 		Banco bcpResultado = em.find(Banco.class,2);
 		System.out.println("Se creo un nuevo banco");
 		em.close();
+		
+		System.out.println("Aplicando un cambio");
 	}
 
 }
